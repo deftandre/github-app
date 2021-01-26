@@ -16,8 +16,8 @@ This workflow includes:
 
 -   Clone this repository: `git clone https://github.com/deftandre/github-app.git`;
 -   Remove `.git` directory;
--   Install dependencies: `npm i`;
--   Run `npm start` to develop on `http://localhost:3000`
+-   Install dependencies: `npm i or yarn install`;
+-   Run `npm start or yarn start` to develop on `http://localhost:3000`
 
 ## License
 
