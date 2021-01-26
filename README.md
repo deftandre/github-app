@@ -7,6 +7,8 @@ This workflow includes:
 -   Babel;
 -   React hot loader;
 -   HTML and CSS generated automatically by webpack
+-   Jest for tests and Chai for assertions
+-   Storybook to create isolatelly components' stories
 
 ## Dependencies:
 
@@ -15,9 +17,10 @@ This workflow includes:
 ## Up and running
 
 -   Clone this repository: `git clone https://github.com/deftandre/github-app.git`;
--   Remove `.git` directory;
--   Install dependencies: `npm i or yarn install`;
--   Run `npm start or yarn start` to develop on `http://localhost:3000`
+-   Remove .git directory;
+-   Install dependencies: yarn (or npm i);
+-   Run yarn dev (or npm start) to develop on http://localhost:3000
+-   Run yarn build (or npm run build) for production build (files will be generated on dist directory)
 
 ## License
 
